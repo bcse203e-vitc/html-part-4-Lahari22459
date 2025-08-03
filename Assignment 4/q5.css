@@ -1,0 +1,33 @@
+.card{
+    background-color: white;
+    height:350px;
+    width:300px;
+    padding:20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: all 0.3s ease-in-out;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+img{
+    height:150px;
+    width:200px;
+    border-radius: 50%;
+}
+h2{
+    color:grey;
+}
+.Box{
+    background-color:gainsboro;
+    height: 450px;
+    width: 400px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    
+}
