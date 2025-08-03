@@ -1,0 +1,33 @@
+button{
+    color: white;
+    border: 5px solid white;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    padding: 12px 25px;
+    margin:0 15px;
+    
+}
+.div{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+button:hover{
+     transform: scale(1.05);
+    filter: brightness(90%);
+}
+.save{
+    background-color:green;
+}
+.cancel{
+    background-color: red;
+}
+.submit{
+    background-color: rgba(31, 78, 179, 0.855);
+}
+button:active {
+    transform: scale(0.98);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2) inset;
+}
+
